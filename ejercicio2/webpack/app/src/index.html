@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MetaCoin | PEC 2 solución al ejercicio 2</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>MetaCoin — PEC2 Diseño y Desarrollo I</h1>
+    <h1>Alumno: César Casasola</h1>
+    <label for="sender">Account: </label>
+    <input type="text" id="sender" style="width: 400px"/>    
+    
+    <p>You have <strong class="balance">loading...</strong> META Coin</p>
+
+    <h1>Send MetaCoin</h1>    
+
+    <div style="display: inline-block;">
+      <label for="amount">Amount:</label>
+      <input type="text" id="amount" placeholder="e.g 10" value = "10" />
+    </div>
+
+    <div style="display: inline-block;">
+      <label for="receiver">To Address:</label>
+      <input type="text" id="receiver" style="width: 400px" placeholder="e.g 0xD7fC3cAda5dE4714E82eF3199c192332D6Fb108C" value="" />
+    </div>
+    
+
+    <button onclick="App.sendCoin()">Send MetaCoin</button>
+
+    <p>The receiver has now have <strong class="balance_receiver">loading...</strong> META Coin</p>
+
+    <p id="status"></p>
+    <p>
+      <strong>Hint:</strong> open the browser developer console to view any
+      errors and warnings.
+    </p>
+    <script src="index.js"></script>
+  </body>
+</html>
