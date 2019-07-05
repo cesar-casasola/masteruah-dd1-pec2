@@ -75,7 +75,7 @@ Mnemonic: stereo shove acquire message jump stumble trick orange chimney mixture
 Ensure you do not use it on production blockchains, or else you risk losing funds.
 ~~~~
 
-- Se lleva a cabo la compilación compila
+- Se lleva a cabo la compilación
 ~~~~
 > truffle compile
 ~~~~
@@ -240,12 +240,11 @@ Summary
 > npm run build
 ~~~~
 
-Para visualizar la aplicación he utilizado el chrome server: http://127.0.0.1:8887, configurando la carpeta dist como carpeta app/dist
+Para visualizar la aplicación he utilizado la extensión de web server chrome: http://127.0.0.1:8887, configurando la carpeta app/dist como carpeta web
 
 
 >Cuentas utilizadas en la prueba:["0xCc96735af99781E494BcBef3d90825B6FEcb7327", "0xd62eef49dea44a07dd4ffef445594cb8f778d9ac"]
 
-En Etherscan se puede comprobar las trnasacciones realizadas:
 
 ## IPFS
 ----
