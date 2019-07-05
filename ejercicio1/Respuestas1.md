@@ -8,9 +8,8 @@ outputs).
 
 ----
 
-- Cuentas utilizadas: 
-  - "0x148157cef85ffa1f0bac483c2a75e0f3baff0278", 
-  - "0xd62eef49dea44a07dd4ffef445594cb8f778d9ac"
+- Cuenta utilizada: 
+  - "0x148157cef85ffa1f0bac483c2a75e0f3baff0278"
 
 Metamask Rinkeby: 0xCc96735af99781E494BcBef3d90825B6FEcb7327
 
