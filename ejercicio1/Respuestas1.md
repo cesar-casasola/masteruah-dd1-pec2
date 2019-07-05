@@ -46,16 +46,11 @@ true
 
 - Volvemos a comprobar el registro:
 ~~~~
-> testRegistrar.expiryTimes(web3.sha3("cesarcasasola"))
-1564683179
-> 
-~~~~
-
 > new Date(testRegistrar.expiryTimes(web3.sha3('cesarcasasola')).toNumber() * 1000)
 <Date Thu, 01 Aug 2019 20:12:59 CEST>
 
 El nombre está registrado hasta el 1 de Agosto
-
+~~~~
 
 -- Next, tell the ENS registry to use the public resolver for your name:
 
