@@ -52,33 +52,24 @@ true
 El nombre está registrado hasta el 1 de Agosto
 ~~~~
 
--- Next, tell the ENS registry to use the public resolver for your name:
-
+- Damos de alta el doiminio 'cesarcasasola.test':
+~~~~
 > namehash('cesarcasasola.test')
 "0x50fb09877c808c4d0377f904a996050e242d532da5c1f53c6430e9f8482033fb"
 > 
-
-> publicResolver.address
-"0x5d20cf83cb385e06d2f2a892f9322cd4933eacdc"
-
-
-ens.setResolver(namehash('cesarcasasola.test'), publicResolver.address, {from: eth.accounts[0]});
-
-
 > ens.setResolver(namehash('cesarcasasola.test'), publicResolver.address, {from: eth.accounts[0]});
 "0x0d4c35a79cfec913f555bf301b6ac40bad57337b45334bba58f15db521ed5cf9"
 > 
+~~~~
+- Resultados de la ejecición:
+> Transaccion: 0x0d4c35a79cfec913f555bf301b6ac40bad57337b45334bba58f15db521ed5cf9
+> Contrato del Resolver:  0xe7410170f87102DF0055eB195163A03B7F2Bff4A
 
----Transaccion: 0x0d4c35a79cfec913f555bf301b6ac40bad57337b45334bba58f15db521ed5cf9
--- Contrato del Resolver:  0xe7410170f87102DF0055eB195163A03B7F2Bff4A
-
-
-Una vez que la transacción se ha confirmado se le indica al resolver resuelva la dirección de la cuenta eth.accounts[0] para devolver el nombre cesarcasasola.test 
- 
-publicResolver.setAddr(namehash('cesarcasasola.test'), eth.accounts[0], {from: eth.accounts[0]});
-
+- Una vez que la transacción se ha confirmado se le indica al resolver resuelva la dirección de la cuenta eth.accounts[0] para devolver el nombre cesarcasasola.test 
+~~~~
 > publicResolver.setAddr(namehash('cesarcasasola.test'), eth.accounts[0], {from: eth.accounts[0]})
 "0xa1fec0467d327632caade76a2bff9b882b845c9a9fc71a0ea251f0ea32493c6a"
+~~~~
 
 - Prueba de resolución del dominio: Debe recuperar la cuenta "0x148157cef85ffa1f0bac483c2a75e0f3baff0278"
 ~~~~
