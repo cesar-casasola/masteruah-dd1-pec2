@@ -11,8 +11,6 @@ outputs).
 - Cuenta utilizada: 
   - "0x148157cef85ffa1f0bac483c2a75e0f3baff0278"
 
-Metamask Rinkeby: 0xCc96735af99781E494BcBef3d90825B6FEcb7327
-
 >ENS on Rinkeby: 0xe7410170f87102df0055eb195163a03b7f2bff4a
 
 - Descargamos el fichero ensutils-rinkeby.js, que contiene la dirección de ENS para Rinkeby
