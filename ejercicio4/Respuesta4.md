@@ -4,7 +4,7 @@ Arranque un nodo de Swarm y aloje la DApp (Proyecto truffle elegido).
 Además, vincule el ENS adquirido en el ejercicio 1 con la DApp, de tal forma que una url como la de a continuación muestre la aplicación. Por ejemplo: http://localhost:8500/bzz:/swarmtest.test/index.html
 Una vez alojada la DApp, debe ser capaz de utilizar la aplicación al igual que en localhost, es decir, firmando transacciones mediante MetaMask.
 
-- Para iniciar sawrm con una la cuenta fb9284eb67d8679b45670cf452e97b3c46a64216
+- Se inicia sawrm con la cuenta fb9284eb67d8679b45670cf452e97b3c46a64216
 ~~~~ 
 swarm --bzzaccount fb9284eb67d8679b45670cf452e97b3c46a64216 --ens-api 0xe7410170f87102df0055eb195163a03b7f2bff4a@/home/cesar/.ethereum/rinkeby/geth.ipc
 ~~~~
